@@ -86,7 +86,7 @@ const CONFIG = {
 			name: 'Reddit',
 			icon: 'monitor-cog',
 			link: 'https://www.reddit.com/r/unixporn/',
-		},rice
+		},
 	],
 
 	/*secondButtonsContainer: [
