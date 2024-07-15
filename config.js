@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: '-9.139',
+	name: 'F',
 	imageBackground: false,
 	openInNewTab: false,
 	twelveHourFormat: false,
