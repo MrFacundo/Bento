@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: '',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -23,17 +23,17 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'f481ede34032c5f56b40e4a60ae0d692', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLongitude: '-9.139',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,21 +53,27 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'Repositories',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/MrFacundo?tab=repositories',
+		},
+		{
+			id: '1',
+			name: 'Stars',
+			icon: 'github',
+			link: 'https://github.com/MrFacundo?tab=stars',
 		},
 		{
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
 			name: 'Todoist',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://keep.google.com/',
 		},
 		{
 			id: '4',
@@ -79,17 +85,17 @@ const CONFIG = {
 			id: '5',
 			name: 'Reddit',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://www.reddit.com/r/unixporn/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
-	secondButtonsContainer: [
+	/*secondButtonsContainer: [
 		{
 			id: '1',
 			name: 'Music',
@@ -126,7 +132,7 @@ const CONFIG = {
 			icon: 'figma',
 			link: 'https://figma.com/',
 		},
-	],
+	],*/
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
