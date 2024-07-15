@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Stars',
-			icon: 'star',
-			link: 'https://github.com/MrFacundo?tab=stars',
+			name: 'youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '3',
@@ -86,12 +86,6 @@ const CONFIG = {
 			name: 'Reddit',
 			icon: 'monitor-cog',
 			link: 'https://www.reddit.com/r/unixporn/',
-		},
-		{
-			id: '7',
-			name: 'youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
 		},
 	],
 
