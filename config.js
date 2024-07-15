@@ -11,9 +11,9 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: '',
+	name: '-9.139',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -58,37 +58,37 @@ const CONFIG = {
 			link: 'https://github.com/MrFacundo?tab=repositories',
 		},
 		{
-			id: '1',
+			id: '2',
 			name: 'Stars',
-			icon: 'github',
+			icon: 'star',
 			link: 'https://github.com/MrFacundo?tab=stars',
 		},
 		{
-			id: '2',
+			id: '3',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://mail.google.com/',
 		},
 		{
-			id: '3',
+			id: '4',
 			name: 'Todoist',
 			icon: 'trello',
 			link: 'https://keep.google.com/',
 		},
 		{
-			id: '4',
+			id: '5',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
+			id: '6',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'monitor-cog',
 			link: 'https://www.reddit.com/r/unixporn/',
 		},
 		{
-			id: '6',
+			id: '7',
 			name: 'youtube',
 			icon: 'youtube',
 			link: 'https://www.youtube.com/',
