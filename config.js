@@ -77,9 +77,9 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
+			name: 'ChatGPT',
+			icon: 'bot',
+			link: 'https://chatgpt.com/',
 		},
 		{
 			id: '6',
