@@ -10,7 +10,7 @@ const generateFirstButtonsContainer = () => {
           href="${button.link}"
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           class="card button button__${button.id}"
-        >APIKEY
+        >
           <i class="buttonIcon" icon-name="${button.icon}"></i>
         </a>
     `;
