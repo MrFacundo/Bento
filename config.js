@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'f481ede34032c5f56b40e4a60ae0d692', // Write here your API Key
+	weatherKey: APIKEY,
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -65,21 +65,21 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
-		},
-		{
-			id: '4',
 			name: 'Todoist',
 			icon: 'trello',
 			link: 'https://keep.google.com/',
 		},
 		{
-			id: '5',
+			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
+		},
+		{
+			id: '5',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '6',
