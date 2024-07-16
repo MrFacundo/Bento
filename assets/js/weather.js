@@ -15,7 +15,7 @@ weather.temperature = {
 var tempUnit = CONFIG.weatherUnit;
 
 const KELVIN = 273.15;
-const key = `${CONFIG.weatherKey}`;
+const nana = `${CONFIG.dassdsa1}`;
 setPosition();
 
 function setPosition(position) {
@@ -38,8 +38,8 @@ function setPosition(position) {
 }
 
 function getWeather(latitude, longitude) {
-	let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
-	fetch(api)
+	let ba = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${nana}`;
+	fetch(ba)
 		.then(function(response) {
 			let data = response.json();
 			return data;
