@@ -87,9 +87,21 @@ const CONFIG = {
 			icon: 'monitor-cog',
 			link: 'https://www.reddit.com/r/unixporn/',
 		},
+		{
+			id: '7',
+			name: 'Maps',
+			icon: 'map',
+			link: 'http://maps.google.com/',
+		},
+		{
+			id: '8',
+			name: 'Whatsapp',
+			icon: 'phone',
+			link: 'https://web.whatsapp.com/',
+		},
 	],
 
-	secondButtonsContainer: [
+	/*secondButtonsContainer: [
 		{
 			id: '1',
 			name: 'Maps',
@@ -126,7 +138,7 @@ const CONFIG = {
 			icon: 'figma',
 			link: 'https://figma.com/',
 		},
-	],
+	],*/
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
