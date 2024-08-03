@@ -59,13 +59,13 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'youtube',
+			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Trello',
 			icon: 'trello',
 			link: 'https://keep.google.com/',
 		},
@@ -89,18 +89,18 @@ const CONFIG = {
 		},
 	],
 
-	/*secondButtonsContainer: [
+	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Maps',
+			icon: 'map',
+			link: 'http://maps.google.com/',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Whatsapp',
+			icon: 'phone',
+			link: 'https://web.whatsapp.com/',
 		},
 		{
 			id: '3',
@@ -112,7 +112,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.es/',
 		},
 		{
 			id: '5',
@@ -126,7 +126,7 @@ const CONFIG = {
 			icon: 'figma',
 			link: 'https://figma.com/',
 		},
-	],*/
+	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
