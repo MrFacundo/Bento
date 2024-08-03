@@ -3,7 +3,7 @@
 // └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 // Function to print Button Cards.
 
-const generateFirstButtonsContainer = () => {
+const generateButtonsContainer = () => {
 	for (const button of CONFIG.firstButtonsContainer) {
 		let item = `
         <a
@@ -21,32 +21,14 @@ const generateFirstButtonsContainer = () => {
 	}
 };
 
-const generateSecondButtonsContainer = () => {
-	for (const button of CONFIG.secondButtonsContainer) {
-		let item = `
-        <a
-          href="${button.link}"
-          target="${CONFIG.openInNewTab ? '_top' : ''}"
-          class="card button button__${button.id}"
-        >
-          <i class="buttonIcon" icon-name="${button.icon}"></i>
-        </a>
-    `;
-
-		const position = 'beforeend';
-
-		buttons_2.insertAdjacentHTML(position, item);
-	}
-};
 
 const generateButtons = () => {
 	switch (CONFIG.bentoLayout) {
 		case 'bento':
-			generateFirstButtonsContainer();
+			generateButtonsContainer();
 			break;
 		case 'buttons':
-			generateFirstButtonsContainer();
-			generateSecondButtonsContainer();
+			generateButtonsContainer();
 			break;
 		default:
 			break;

@@ -101,45 +101,7 @@ const CONFIG = {
 		},
 	],
 
-	/*secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Maps',
-			icon: 'map',
-			link: 'http://maps.google.com/',
-		},
-		{
-			id: '2',
-			name: 'Whatsapp',
-			icon: 'phone',
-			link: 'https://web.whatsapp.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.es/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],*/
-
+	
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
