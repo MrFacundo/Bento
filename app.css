@@ -259,7 +259,7 @@ body {
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
-  color: var(--fg);
+  color: var(--accent);
 }
 
 .button__1 {
